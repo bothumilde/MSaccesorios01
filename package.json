@@ -1,0 +1,16 @@
+{
+  "name": "express-srvr",
+  "version": "1.0.0",
+  "description": "Control de Accesorios FMC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@azure/identity":"^4.13.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mssql": "^12.2.0"
+  }
+}
+
